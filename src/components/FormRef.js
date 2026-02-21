@@ -18,7 +18,7 @@ function FormRef() {
 
   return (
     <Card style={{ display: "flex", justifyContent: "space-around" }}>
-      <form id="form-ref-link" onSubmit={handleSubmit}>
+      <form id="info-form" onSubmit={handleSubmit}>
         <input id="full_name" ref={nameRef} placeholder="Full Name" />
         <input id="email" ref={emailRef} placeholder="Email" />
         <input
